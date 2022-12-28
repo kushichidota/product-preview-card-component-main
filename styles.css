@@ -1,0 +1,23 @@
+p {
+    color: #6C7289
+}
+
+html {
+    height: 100%
+}
+
+body {
+    background-color: #F2EBE3;
+    width: 1440px;
+    height: 100%
+}
+
+.card {
+    background-color: green;
+    width: 50%;
+    vertical-align: center;
+    position: relative;
+    top: 25%;
+    height: 40%;
+    left:25%;
+}
