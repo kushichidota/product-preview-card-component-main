@@ -1,5 +1,11 @@
 p {
-    color: #6C7289
+    color: #6C7289;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+
+.card-header p {
+    font-weight: 500;
 }
 
 html {
@@ -8,41 +14,67 @@ html {
 
 body {
     background-color: #F2EBE3;
-    width: 1440px;
-    height: 100%
+    height: 100%;
+    font-size: 14px;
 }
 
 img {
-    height:100%;
+    width: 50%;
+    height: 100%;
     border-bottom-left-radius: 8px;
     border-top-left-radius: 8px;
 }
 
 .card-right {
-    height: 100%;
-    padding:10px;
+    height: 80%;
+    padding: 25px;
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.prices {
+    display: flex;
+    font-family: Fraunces;
+    font-weight: 700;
+    justify-content: space-between;
+}
+
+#actual-price {
+    color: hsl(158, 36%, 37%);
+    font-size: 30px;
+}
+
+#last-price {
+    display: flex;
+    color: #6C7289;
+    align-items: center;
+    font-weight: 500;
+    padding-right: 15%;
+    text-decoration: line-through;
+}
+
+button {
+    font-family: Montserrat;
+    font-weight: 500;
+    color: #FFFFFF;
+    width: 100%;
+    height: 30px;
+    border: 0;
+    border-radius: 8px;
+    background-color: hsl(158, 36%, 37%);
 }
 
 .card {
+    font-family: Fraunces;
+    font-weight: 700;
     display: flex;
-    width: 50%;
+    width: 30%;
     vertical-align: center;
     position: relative;
-    top: 15%;
-    height: 70%;
-    left: 25%;
+    top: 30%;
+    height: 40%;
+    left: 35%;
     border-radius: 8px;
     background-color: #FFFFFF;
-}
-
-.attribution {
-    font-size: 11px;
-    text-align: center;
-    bottom:5px;
-    align-content: center;
-    position:absolute;
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
 }
